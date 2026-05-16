@@ -1,0 +1,23 @@
+Smart Expense Tracker API 🚀
+
+Features:
+
+Create expense
+Read expenses
+Update expense
+Delete expense
+Filter by category
+Monthly total
+Search expenses
+
+Entities:
+Expense
+
+Fields:
+
+id
+title
+amount
+category
+date
+description
