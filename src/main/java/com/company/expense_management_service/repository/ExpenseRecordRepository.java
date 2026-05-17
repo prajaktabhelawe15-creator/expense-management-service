@@ -10,11 +10,11 @@ public interface ExpenseRecordRepository {
 
     ExpenseRecord fetchExpenseById(Long expenseId);
 
-    ExpenseRecord upExpenseRecord(
+    ExpenseRecord updateExpenseRecord(
             ExpenseRecord expenseRecord);
 
-    void removeExpenseRecord(long expenseId);
-    
+    void removeExpenseRecord(Long expenseId);
+
     List<ExpenseRecord> fetchExpenseByCategory(
             String expenseCategory);
 }
